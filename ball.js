@@ -18,7 +18,7 @@ class Ball {
         push ()
         translate(pos.x,pos.y);
         rotate (this.body.angle)
-        fill (255);
+        fill ("blue");
 
         ellipseMode(CENTER);
         ellipse(0,0,this.r,this.r)

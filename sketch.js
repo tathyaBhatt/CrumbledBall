@@ -21,7 +21,6 @@ function setup() {
 	log2 = new Log(windowWidth-300, height-95, 20, 100);
 	log3 = new Log(windowWidth-100, height-95, 20, 100);
 	ground = new Log(690, 465, windowWidth, 20);
-	fill("blue");
 	ball= new Ball(300, 300, 50);
    
 	Engine.run(engine);
